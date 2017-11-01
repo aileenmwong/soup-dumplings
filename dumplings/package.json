@@ -1,17 +1,27 @@
 {
   "name": "dumplings",
   "version": "1.0.0",
-  "description": "An application to find the closest soup dumplings by ranking",
+  "description": "backend to find soup dumplings",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "dev": "nodemon server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aileenmwong/soup-dumplings"
+  },
   "author": "Aileen Wong",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
     "express": "^4.16.2",
-    "nodemon": "^1.12.1"
+    "logger": "0.0.1",
+    "method-override": "^2.3.10",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.12.1",
+    "pg-promise": "^7.2.0"
   }
 }
