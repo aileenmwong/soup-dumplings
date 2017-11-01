@@ -7,3 +7,5 @@ Dumpling.findAll = () => {
     'SELECT * FROM dumplings'
   );
 }
+
+module.exports = Dumpling;
